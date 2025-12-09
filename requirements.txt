@@ -3,10 +3,13 @@ elevenlabs==1.8.0
 
 # Audio Processing
 pydub==0.25.1
-noisereduce==3.0.0
-librosa==0.10.1
+# Unpinned to get latest version (3.0.3+) which fixes some numpy compatibility
+noisereduce>=3.0.3
+# Updated to 0.11.0+ for Numpy 2.0 support
+librosa>=0.11.0
 soundfile==0.12.1
-numpy==1.24.3
+# Updated for Python 3.13 support (requires >= 2.1.0)
+numpy>=2.1.0
 
 # Configuration & Environment
 python-dotenv==1.0.0
@@ -17,3 +20,6 @@ requests==2.31.0
 
 # Optional but helpful
 tqdm==4.66.1
+
+# For Python 3.13 compatibility
+setuptools>=65.5.0
