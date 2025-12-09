@@ -39,7 +39,10 @@ audio_refinement:
 paths:
   raw_audio: "./audio_raw"
   refined_audio: "./audio_refined"
+  refined_audio: "./audio_refined"
   logs: "./logs"
+  # Optional: Explicit path to ffmpeg binary if not in system PATH
+  ffmpeg: "C:/ffmpeg/bin/ffmpeg.exe"
 
 # Logging configuration
 logging:
