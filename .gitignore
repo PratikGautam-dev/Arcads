@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.agent/rules
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Audio files (don't commit large files)
+audio_raw/*.mp3
+audio_refined/*.wav
+
+# Logs
+logs/*.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*~
